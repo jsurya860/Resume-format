@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+    font-family: Rubik;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
+
+#mainLeft {
+    border-right: 1px solid rgb(141, 141, 141);
+}
+
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 100;
+    margin: 0;
+
+}
+
+#title {
+    font-size: 1em;
+}
+
+section {
+    margin: auto 1em 4em 2em;
+}
+
+i {
+    margin-right: .5em;
+}
+
+p {
+    margin: .2em auto;
+}
+
+hr {
+    border: none;
+    background-color: rgb(156, 156, 156);
+    height: 1px;
+}
+
